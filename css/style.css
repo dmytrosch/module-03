@@ -1,0 +1,51 @@
+body{
+    font-family: 'Playfair Display', 'Arial', serif;
+    color: rgb(98, 98, 98);
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/* .navigation-list{
+    background-color: rgb(255, 255, 255);
+} */
+
+.site-navigation a{
+    text-transform: uppercase;
+    color: rgb(98, 98, 98);
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 24px;
+    
+}
+
+.site-navigation a:hover{
+    color: #03a9f4;
+
+}
+
+.site-navigation{
+    list-style: none;
+}
+
+.article h2{
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+}
+
+.description{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    color: #b4ad9e;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+
+}
+
+button{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    color: rgb(98, 98, 98);
+}
