@@ -11,14 +11,12 @@ html{
 
 .container{
     width: 907px;
-    background-color: teal;
     margin: 0 auto;
 }
 
 .container-nav{
     width: 575px;
-    margin: 77px auto 103px auto;
-    /* background-color: red; */
+    margin: 72px auto 98px auto;
 }
 
 body{
@@ -91,10 +89,19 @@ img{
     width: 421px;
     display: inline-block;
     margin-right: 61px;
+    margin-bottom: 130px;
 }
 
 .article-item:nth-child(2n){
     margin-right: 0;
+}
+
+.article-item:nth-child(5n){
+    margin-bottom: 55px
+}
+
+.article-item:nth-child(6n){
+    margin-bottom: 55px;
 }
 
 .description{
@@ -104,7 +111,13 @@ img{
     font-size: 14px;
     line-height: 17px;
     text-transform: uppercase;
+    margin-top: 30px;
 
+}
+
+h2{
+    margin-bottom: 40px;
+    margin-top: 28px;
 }
 
 button{
@@ -112,4 +125,12 @@ button{
     line-height: 24px;
     font-weight: 400;
     color: rgb(98, 98, 98);
+    padding: 20px 33px;
+    border: 1px solid #626262;
+    background-color: #ffffff;
+}
+
+.button{
+    margin-left: 358px;
+    margin-right: 379px;
 }
