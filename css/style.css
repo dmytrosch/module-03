@@ -12,11 +12,13 @@ html{
 .container{
     width: 907px;
     margin: 0 auto;
+    position: relative;
 }
 
 .container-nav{
     width: 575px;
     margin: 72px auto 98px auto;
+    position: relative;
 }
 
 body{
