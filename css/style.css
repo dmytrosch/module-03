@@ -1,3 +1,26 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+    /* overflow: hidden; */
+}
+
+.container{
+    width: 907px;
+    background-color: teal;
+    margin: 0 auto;
+}
+
+.container-nav{
+    width: 575px;
+    margin: 77px auto 103px auto;
+    /* background-color: red; */
+}
+
 body{
     font-family: 'Playfair Display', 'Arial', serif;
     color: rgb(98, 98, 98);
@@ -5,9 +28,17 @@ body{
     line-height: 24px;
 }
 
-/* .navigation-list{
-    background-color: rgb(255, 255, 255);
-} */
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.site-navigation{
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+}
 
 .site-navigation a{
     text-transform: uppercase;
@@ -23,14 +54,47 @@ body{
 
 }
 
-.site-navigation{
+.site-navigation li{
     list-style: none;
+    display: inline-block;
+    
 }
 
-.article h2{
+.lifestyle{
+    margin: 0;
+}
+
+.photodiary{
+    margin-left: 121px;
+}
+
+.music{
+    margin-left: 104px;
+}
+
+.travel{
+    margin-left: 95px;
+}
+
+.articles{
+    margin: 0;
+    padding: 0;
+}
+
+.article-item h2{
     font-size: 30px;
     line-height: 36px;
     font-weight: 400;
+}
+
+.article-item{
+    width: 421px;
+    display: inline-block;
+    margin-right: 61px;
+}
+
+.article-item:nth-child(2n){
+    margin-right: 0;
 }
 
 .description{
