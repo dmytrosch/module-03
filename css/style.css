@@ -1,128 +1,134 @@
-html{
+html {
     box-sizing: border-box;
 }
 
 *,
 *::before,
-*::after{
+*::after {
     box-sizing: inherit;
     /* overflow: hidden; */
 }
 
-.container{
-    width: 907px;
+.container {
+    width: 901px;
     margin: 0 auto;
-    position: relative;
 }
 
-.container-nav{
+.container-nav {
     width: 575px;
     margin: 72px auto 98px auto;
     position: relative;
 }
 
-body{
+body {
     font-family: 'Playfair Display', 'Arial', serif;
     color: rgb(98, 98, 98);
     font-size: 14px;
     line-height: 24px;
 }
 
-img{
+img {
     display: block;
     max-width: 100%;
     height: auto;
+    margin-bottom: 30px;
 }
 
-.site-navigation{
+.site-navigation {
     padding: 0;
     margin: 0;
     font-size: 0;
 }
 
-.site-navigation a{
+.site-navigation a {
     text-transform: uppercase;
     color: rgb(98, 98, 98);
     text-decoration: none;
     font-size: 14px;
     line-height: 24px;
-    
+    display: block;
+
 }
 
-.site-navigation a:hover{
+.site-navigation a:hover {
     color: #03a9f4;
 
 }
 
-.site-navigation li{
+.site-navigation li {
     list-style: none;
     display: inline-block;
-    
+
 }
 
-.lifestyle{
+.lifestyle {
     margin: 0;
 }
 
-.photodiary{
+.photodiary {
     margin-left: 121px;
 }
 
-.music{
+.music {
     margin-left: 104px;
 }
 
-.travel{
+.travel {
     margin-left: 95px;
 }
 
-.articles{
+.articles {
     margin: 0;
     padding: 0;
+    padding-bottom: 70px;
 }
 
-.article-item h2{
+.article-name {
     font-size: 30px;
     line-height: 36px;
     font-weight: 400;
+    margin: 0;
+    margin-bottom: 40px;
 }
 
-.article-item{
-    width: 421px;
+.article-item {
+    width: 420px;
     display: inline-block;
     margin-right: 61px;
     margin-bottom: 130px;
 }
 
-.article-item:nth-child(2n){
+.article-item:nth-child(2n) {
     margin-right: 0;
 }
 
-.article-item:nth-child(5n){
+.article-item:nth-child(5n) {
     margin-bottom: 55px
 }
 
-.article-item:nth-child(6n){
+.article-item:nth-child(6n) {
     margin-bottom: 55px;
 }
 
-.description{
+.description {
     font-family: 'Ubuntu', sans-serif;
     font-weight: 300;
     color: #b4ad9e;
     font-size: 14px;
     line-height: 17px;
     text-transform: uppercase;
-    margin-top: 30px;
+    /* margin-top: 30px; */
+    margin-bottom: 28px;
 
 }
 
-h2{
+/* h2{
     margin-bottom: 40px;
     margin-top: 28px;
-}
+} */
 
-button{
+button {
+    display: block;
     font-size: 20px;
     line-height: 24px;
     font-weight: 400;
@@ -130,10 +136,17 @@ button{
     padding: 20px 33px;
     border: 1px solid #626262;
     background-color: #ffffff;
+    /* margin-left: 358px;
+    margin-right: 379px;
+    margin-bottom: 70px; */
+    margin: 0 auto;
 }
 
-.button{
-    margin-left: 358px;
-    margin-right: 379px;
-    margin-bottom: 70px;
+section {
+    font-size: 0px;
+}
+
+section p {
+    font-size: 14px;
+    margin: 0;
 }
